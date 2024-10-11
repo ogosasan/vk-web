@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../static/css/base.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="#" >
+                AskPupkin
+            </a>
+        </div>
+        <div class="search-form">
+            <form action="#">
+                <input class="search-form-input" type="text">
+                <button class="search-form-button">Ask!</button>
+            </form>
+        </div>
+        <div class="account">
+            <div class="account-image">
+                <img src="./image.jpg" alt="Image">
+            </div>
+            <div class="account-content">
+                <div class="account-name">Dr. Pepper</div>
+                <div class="account-actions">
+                    <a href="./settings.html">Settings</a>
+                    <a href="./logout.html">Log out</a>
+                </div>
+            </div>
+        </div>
+    </header>
+</article>
+
+<main class="container">
+    <div class="title-bar">
+        <h1>Settings: user name</h1>
+    </div>
+    <div class="content">
+        <div class="cards">
+        <div class="title-form">
+            <p>Login</p>
+            <form action="#">
+                <input class="login-form-input" type="text">
+            </form>
+        </div>
+        <div class="title-form">
+            <p>Email</p>
+            <form action="#">
+                <input class="login-form-input" type="text">
+            </form>
+        </div>
+    
+        <div class="nick-form">
+            <p>NickName</p>
+            <form action="#">
+                <input class="login-form-input" type="text">
+            </form>
+        </div>
+        <div class="imgset-form">
+            <p>Upload avatar</p>
+            <img src="./image.jpg" alt="Image" class="set-image">
+        </div>
+        <form method="post" enctype="multipart/form-data" class="file-choose">
+            <div>
+              <input type="file"  multiple />
+            </div>
+            <div>
+              <button class="search-form-button">Submit</button>
+            </div>
+          </form>
+        </div>
+        
+
+        <aside class="sidebar">
+        <section class="popular-tags">
+        <h2>Popular Tags</h2>
+        <div class="tags">
+        <a href="#">Tag</a>
+        <a href="#">Tag</a>
+        <a href="#">Tag</a>
+        <br>
+        <a href="#">Tag</a>
+        <a href="#">Tag</a>
+        <a href="#">Tag</a>
+        <br>
+        <a href="#">Tag</a>
+        <a href="#">Tag</a>
+        <a href="#">Tag</a>
+    </div>
+</section>
+<section class="best-members">
+    <h2>Best Members</h2>
+    <ul class="best-members-list">
+        <li><a href="#">Member</a></li>
+        <li><a href="#">Member</a></li>
+        <li><a href="#">Member</a></li>
+        <li><a href="#">Member</a></li>
+        <li><a href="#">Member</a></li>
+    </ul>
+</section>
+</aside>
+
+</div>
+</main>
+
+</body>
+
+</html>
