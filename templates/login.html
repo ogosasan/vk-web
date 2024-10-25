@@ -18,10 +18,10 @@
         </div>
         <div class="search-form">
             <form action="#">
-                <input class="search-form-input" type="text" placeholder="Search">
-                <button class="search-form-button">Ask!</button>
+                <input type="text" class="search-form-input" placeholder="Введите ваш запрос" required>
             </form>
         </div>
+        <a href="add.html" class="ask-form-button">ASK!</a>
         <div class="account">
         
             <div class="account-content">
@@ -44,15 +44,15 @@
                 Sorry, wrong password!
             </div>
         <div class="title-form">
-            <p>Login</p>
+            <label for="login-form">Login</label>
             <form action="#">
-                <input class="login-form-input" type="text" placeholder="Enter your login here">
+                <input id="login-form" class="login-form-input" type="text" placeholder="Enter your login here">
             </form>
         </div>
         <div class="pass-form">
-            <p>Password</p>
+            <label for="pass-form">Password</label>
             <form action="#" class="button-form">
-                <input class="login-form-input" type="text" placeholder="Enter your password here">
+                <input id="pass-form" class="login-form-input" type="text" placeholder="Enter your password here">
                 <button class="ask-form-button">Log in</button>
             </form>
         
@@ -94,7 +94,9 @@
 
 </div>
 </main>
-
+<footer class="foot">
+    AskPupkin
+</footer>
 </body>
 
 </html>

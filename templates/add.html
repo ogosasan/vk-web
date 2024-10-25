@@ -18,10 +18,10 @@
         </div>
         <div class="search-form">
             <form action="#">
-                <input class="search-form-input" type="text" placeholder="Search">
-                <button class="search-form-button">Ask!</button>
+                <input type="text" class="search-form-input" placeholder="Введите ваш запрос" required>
             </form>
         </div>
+        <a href="add.html" class="ask-form-button">ASK!</a>
         <div class="account">
             <div class="account-image">
                 <img src="./image.jpg" alt="Image">
@@ -43,29 +43,34 @@
     </div>
     <div class="content">
         <div class="cards">
-        <div class="title-form">
-            <p>Title</p>
-            <form action="#">
-                <input class="title-form-input" type="text">
-            </form>
-        </div>
-        <div class="title-form">
-            <p>Text</p>
-            <form action="#">
-                <input class="text-form-input" type="text">
-            </form>
+            <div class="title-form">
+                <label for="title-input">Title</label>
+                <form action="#">
+                    <input id="title-input" class="title-form-input" type="text">
+                </form>
+            </div>
+    
+            <div class="title-form">
+                <label for="text-input">Text</label>
+                <form action="#">
+                    <input id="text-input" class="text-form-input" type="text">
+                </form>
+            </div>
+    
+            <div class="title-form">
+                <label for="tags-input">Tags</label>
+                <form action="#" class="tags-form">
+                    <input id="tags-input" class="title-form-input" type="text">
+                    <button class="ask-form-button">Ask!</button>
+                </form>
+            </div>
+    
+        
+            <div class="error">
+                <p>Please fill out all fields correctly.</p>
+            </div>
         </div>
     
-        <div class="title-form">
-            <p>Tags</p>
-            <form action="#" class="tags-form">
-                <input class="title-form-input" type="text">
-                <button class="ask-form-button">Ask!</button>
-            </form>
-            
-        </div>
-           
-        </div>
         
 
         <aside class="sidebar">
@@ -99,7 +104,9 @@
 
 </div>
 </main>
-
+<footer class="foot">
+    AskPupkin
+</footer>
 </body>
 
 </html>

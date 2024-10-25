@@ -18,10 +18,10 @@
         </div>
         <div class="search-form">
             <form action="#">
-                <input class="search-form-input" type="text" placeholder="Search">
-                <button class="search-form-button">Ask!</button>
+                <input type="text" class="search-form-input" placeholder="Введите ваш запрос" required>
             </form>
         </div>
+        <a href="add.html" class="ask-form-button">ASK!</a>
         <div class="account">
             <div class="account-image">
                 <img src="./image.jpg" alt="Image">
@@ -67,19 +67,17 @@
                 <img src="./image.jpg" alt="Image" class="ans-image">
                 <input type="number" class="ans-likes" value="5">
             </div>
-
+        
             <div class="card-right">
                 <div class="card-right-content">
-
                     <div class="card-text">Text here</div>
                 </div>
-
+        
                 <div class="ans-right-bottom">
-                    <input type="checkbox">
-                    <p>Correct!</p>
+                    <input type="checkbox" id="checkbox-correct1">
+                    <label for="checkbox-correct1">Correct!</label>
                 </div>
             </div>
-
         </article>
 
         <article class="card">
@@ -95,8 +93,8 @@
                 </div>
 
                 <div class="ans-right-bottom">
-                    <input type="checkbox" checked>
-                    <p>Correct!</p>
+                    <input type="checkbox" id="checkbox-correct2">
+                    <label for="checkbox-correct2">Correct!</label>
                 </div>
             </div>
 
@@ -141,6 +139,9 @@
 
 </div>
 </main>
+<footer class="foot">
+    AskPupkin
+</footer>
 </body>
 
 </html>
